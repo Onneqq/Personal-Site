@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+li:last-child {
+    border-right: none;
+    padding-right: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
