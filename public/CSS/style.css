@@ -1,7 +1,7 @@
-* {
+/* * {
     box-sizing: border-box;
     border: 1px solid red;
-}
+} */
 
 body {
     display: flex;
@@ -9,12 +9,17 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
 }
 
 nav {
@@ -31,7 +36,9 @@ li {
     list-style: none;
     text-decoration: none;
     color: white;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid white;
 }
 
 li:last-child {
@@ -42,4 +49,14 @@ li:last-child {
 a:visited {
     text-decoration: none;
     color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+footer ul {
+    text-align: center;
 }
